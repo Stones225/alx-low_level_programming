@@ -1,28 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
+#include "main.h"
 
-/* more headers goes there */
-
-
-/* betty style doc for function main goes there */
 /**
-*main - the main function
-*
-**Return: 0 is success
+*print_alphabet_x10 - print alphabet in lowercase
 */
-int main(void)
-
+void print_alphabet_x10(void)
 {
-
+	int i;
 	char a;
 
-	for (a = 'a'; a <= 'z' ; a++)
-		putchar(a);
-
-	putchar('\n');
-
-	return (0);
-
+	for (i = 0 ; i < 10 ; i++)
+	{
+		for (a = 'a' ; a <= 'z' ; a++)
+		{
+			_putchar(a);
+		}
+		_putchar('\n');
+	}
 }
