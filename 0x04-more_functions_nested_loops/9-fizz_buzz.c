@@ -1,4 +1,4 @@
-:#include <stdio.h>
+#include <stdio.h>
 
 /**
  *main - function
@@ -20,7 +20,7 @@ int main(void)
 		else if ((i % 5) == 0)
 			printf("Buzz");
 
-	else
+		else
 			printf("%d", i);
 
 		if (i == 100)
