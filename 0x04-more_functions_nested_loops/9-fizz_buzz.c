@@ -1,4 +1,4 @@
-#include <stdio.h>
+:#include <stdio.h>
 
 /**
  *main - function
@@ -6,7 +6,6 @@
  *Return: return
  */
 int main(void)
-
 {
 	int i;
 	for (i = 1 ; i <= 100 ; i++)
